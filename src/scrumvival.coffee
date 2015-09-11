@@ -15,7 +15,7 @@
 #   tomasz@wojtun.pl
 
 Select     = require("soupselect").select
-HtmlParser = require "htmlparser"]
+HtmlParser = require "htmlparser"
 
 module.exports = (robot) ->
   robot.respond /scrum/i, (msg) ->

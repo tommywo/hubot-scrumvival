@@ -1,4 +1,6 @@
 # hubot-scrumvival
+[![Build Status](https://img.shields.io/travis/tommywo/hubot-scrumvival/master.svg)](https://travis-ci.org/tommywo/hubot-scrumvival)
+
 
 display nudge from scrumvival.com
 
