@@ -13,4 +13,4 @@ describe 'scrumvival', ->
     require('../src/scrumvival')(@robot)
 
   it 'registers a respond listener', ->
-    expect(@robot.respond).to.have.been.calledWith(/scrum/)
+    expect(@robot.respond).to.have.been.calledWith(/scrum/i)
