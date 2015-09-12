@@ -1,6 +1,9 @@
+### istanbul ignore next ###
 fs = require 'fs'
+### istanbul ignore next ###
 path = require 'path'
 
+### istanbul ignore next ###
 module.exports = (robot, scripts) ->
   scriptsPath = path.resolve(__dirname, 'src')
   if fs.existsSync scriptsPath
