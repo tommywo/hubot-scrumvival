@@ -19,4 +19,4 @@ deploy:
   on:
     tags: true
     repo: tommywo/hubot-scrumvival
-  branch: master
+    branch: master
