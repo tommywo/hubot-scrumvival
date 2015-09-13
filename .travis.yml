@@ -11,3 +11,12 @@ notifications:
   email: false
 after_success:
   bash <(curl -s https://codecov.io/bash)
+deploy:
+  provider: npm
+  email: tommywo@o2.pl
+  api_key:
+    secure: QaCbFDln0Wkv7IaskzAc9Tl+S1hvT+xMEgQXMlrm4iiG1SUu6lmVFohNjxV8KjQTBQYr+nmn6K8DBGXJx79YExMTxza3mYzIY6xrt6ievWf48VskwSFptlugkEopUC6eAtKelYrPOC2kpgAuKOGGTVkrgh+k1j1DIqq9CdEaM4FlxszY8CVc6lzjCEPk9y1UjME3DILemGqBWX6yNhZlez0uvwErUohdgdzloQz7StRfTMF9Lpe2vuP5THYDC5CpesppVexYITDJFc/eOn+EkXf6m5XgXQv5OS48CLWqEUtPztXCTLFGKe/dSOzWJ0JFiCS6PzwxbLQT2uOXKbunnI8jP2s/4tZalCrMZ+XdqRbCBn/yV1djhjr6wso7RmHNiulHPWDOug/KGuKArb+DVaGsoIGHxA1Q5GkA0GM8YG9WJx/uyy0x4YKLMyi+sn16AXLlVXBycRg78DJy1LnSQ8hpIIMFmMfSIWuy4zGcKInGwNVT6SnEPdAZSbQJLJprsHgd4M70UVSQ9D5YUeDLzrpTDc9FMV0/1r8J75bIrIbJ0SoxGH0HB2nZvxgrgPWCtHCV7RIOxkn0YGyDovdVecyVlxohdbTXvbt3nQuSpvmMkyE+OZdqc87m2z9DqYzipS8IHeLdrDW5mjdaChCwkRwKQLNFqDemIwPE198LonY=
+  on:
+    tags: true
+    repo: tommywo/hubot-scrumvival
+  branch: master
