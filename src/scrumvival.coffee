@@ -26,12 +26,12 @@ module.exports = (robot) ->
             handler = new HtmlParser.DefaultHandler()
             parser  = new HtmlParser.Parser handler
             parser.parseComplete body2
-            quote = 'So scrum doesn\'t work, huh? ' 
+            quote = 'So scrum doesn\'t work, huh?... ' 
             article = (Select handler.dom, "h1")[0]
             for d, i in article.children
               if d.type == 'text'
                 quote = quote + d.raw
               else
-                if d.type='tag'
+                if d.type=='tag'
                   quote = quote + d.children[0].raw
             msg.send quote
