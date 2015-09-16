@@ -13,9 +13,7 @@
     "url": "https://github.com/tommywo/hubot-scrumvival/issues"
   },
   "dependencies": {
-    "coffee-script": "^1.10.0",
-    "htmlparser": "^1.7.7",
-    "soupselect": "0.2.0"
+    "coffee-script": "^1.10.0"
   },
   "peerDependencies": {
     "hubot": "2.x"
@@ -23,7 +21,6 @@
   "devDependencies": {
     "chai": "^3.2.0",
     "coffee-coverage": "^0.6.3",
-    "coffee-script": "1.10.0",
     "grunt": "^0.4.5",
     "grunt-cli": "^0.1.13",
     "grunt-contrib-watch": "~0.6.1",
